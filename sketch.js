@@ -35,6 +35,7 @@ function setup() {
 
 
 
+
 }
 
 
@@ -51,6 +52,7 @@ function draw() {
   textSize(32);
   noStroke();
   textAlign(CENTER, CENTER)
+  textFont(myFont)
   fill(200, 0, 0)
   text('ENTER to play', 0, -height/2+50);
 
